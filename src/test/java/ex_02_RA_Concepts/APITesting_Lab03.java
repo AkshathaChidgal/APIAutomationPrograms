@@ -1,6 +1,9 @@
 package ex_02_RA_Concepts;
 
-public class APITesting_Lab003 {
+public class APITesting_Lab03 {
+
+
+//     // NoDesignPattern
     public void step1(){
         System.out.println("Step 1");
     }
@@ -14,7 +17,7 @@ public class APITesting_Lab003 {
     }
 
     public static void main(String[] args) {
-        APITesting_Lab003 np=new APITesting_Lab003();
+        APITesting_Lab03 np=new APITesting_Lab03();
         np.step1();
         np.step2();
         np.steo3("Akshatha");

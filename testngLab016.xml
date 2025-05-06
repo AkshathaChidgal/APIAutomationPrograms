@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Akshatha C/IdeaProjects/APIAutomationPrograms">
+        <classes>
+            <class name="ex_03_TestNG_AllureReport.APITesting_Lab06_TestCases">
+                <methods>
+                    <include name="test_GET_POSITIVE_TC1"/>
+                    <include name="test_GET_NEGATIVE_TC2"/>
+                    <include name="test_GET_NEGATIVE_TC3"/>
+                </methods>
+            </class>
+            <class name="ex_04_RestAssured_HTTP_Methods.DELETE.APITesting_Lab0013_DeleteNonBDD">
+                <methods>
+                    <include name="test_delete_Auth_NonBDD"/>
+                </methods>
+            </class>
+            <class name="ex_04_RestAssured_HTTP_Methods.GET.APITesting_Lab007_BDDStyle">
+                <methods>
+                    <include name="test_GET_Positive"/>
+                </methods>
+            </class>
+            <class name="ex_04_RestAssured_HTTP_Methods.GET.APITesting_Lab008_NonBDDStyle">
+                <methods>
+                    <include name="test_GET_Postive_NonBDD"/>
+                    <include name="test_GET_Negative_NonBDD"/>
+                </methods>
+            </class>
+            <class name="ex_04_RestAssured_HTTP_Methods.PATCH.APITesting_Lab012_Patch_Nonbdd">
+                <methods>
+                    <include name="test_PATCH_Auth_NonBDD"/>
+                </methods>
+            </class>
+            <class name="ex_04_RestAssured_HTTP_Methods.POST.APITesting_Lab009_POST_BDDStyle">
+                <methods>
+                    <include name="test_POST_Auth"/>
+                </methods>
+            </class>
+            <class name="ex_04_RestAssured_HTTP_Methods.POST.APITesting_Lab010_POST_NonBDDStyle">
+                <methods>
+                    <include name="test_POST_Auth_NonBDD"/>
+                </methods>
+            </class>
+            <class name="ex_04_RestAssured_HTTP_Methods.PUT.APITesting_Lab011_PUT_NonBDD">
+                <methods>
+                    <include name="test_put_non_bdd_style"/>
+                </methods>
+            </class>
+            <class name="ex_05_TestNGExamples.APITesting_Lab014">
+                <methods>
+                    <include name="test_post_request"/>
+                    <include name="test_post_request2"/>
+                </methods>
+            </class>
+            <class name="ex_05_TestNGExamples.APITesting_Lab015_BeforeTest">
+                <methods>
+                    <include name="test_PUT"/>
+                </methods>
+            </class>
+            <class name="ex_05_TestNGExamples.APITesting_Lab016_TestNG_Priority">
+                <methods>
+                    <include name="t1"/>
+                    <include name="t2"/>
+                    <include name="t5"/>
+                    <include name="t3"/>
+                    <include name="t4"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
